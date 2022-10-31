@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const shortUrls = require('./model/shortUrl');
 
 mongoose.connect('mongodb://localhost/urlShortener', {
   useNewUrlParser: true, useUnifiedTopology: true
